@@ -35,3 +35,10 @@ export const {
     space,
   },
 })
+
+function ola() {
+  const num = 40
+  if (num !== 40) {
+    console.log('no')
+  }
+}
