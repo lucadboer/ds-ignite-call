@@ -24,11 +24,20 @@ export const Prefix = styled('span', {
   color: '$gray400',
   fontSize: '$sm',
   fontFamily: '$default',
+  padding: 0,
+  margin: 0,
 })
 
 export const Input = styled('input', {
+  fontSize: '$sm',
+  fontFamily: '$default',
   background: 'transparent',
+  color: '$white',
   border: 0,
   boxShadow: 0,
   outline: 0,
+
+  '&:disabled': {
+    cursor: 'not-allowed',
+  },
 })
