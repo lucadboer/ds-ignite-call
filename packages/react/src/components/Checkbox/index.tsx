@@ -16,3 +16,5 @@ export interface CheckboxProps
   extends ComponentProps<typeof CheckboxContainer> {
   as?: ElementType
 }
+
+Checkbox.displayName = 'Checkbox'
