@@ -13,6 +13,7 @@ export function MultiStep({ currentStep = 1, size }: MultiStepProps) {
       </Label>
       <Steps css={{ '--steps-size': size }}>
         {Array.from({ length: size }, (_, i) => i + 1).map((step) => {
+          // Criando array de 4 posições
           return <Step key={step} active={currentStep >= step} />
         })}
       </Steps>
