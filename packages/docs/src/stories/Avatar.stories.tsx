@@ -8,6 +8,13 @@ export default {
     src: 'https://github.com/lucadboer.png',
     alt: 'Imagem de perfil'
   },
+  argTypes: {
+    src: {
+      control: {
+        type: 'text',
+      },
+    },
+  },
 } as Meta<AvatarImageProps>
 
 export const Primary: StoryObj<AvatarImageProps> = {}
