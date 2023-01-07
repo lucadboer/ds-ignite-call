@@ -1,0 +1,2 @@
+import{A as t}from"./index-5eab284e.js";import"./index-cb59b577.js";import"./es.object.get-own-property-descriptor-b0ef2764.js";import"./index-7b0975d2.js";import"./jsx-runtime-d9537fda.js";const i={title:"Display/Avatar",component:t,args:{src:"https://github.com/lucadboer.png",alt:"Imagem de perfil"},argTypes:{src:{control:{type:"text"}}}},m={},p={args:{src:void 0}},c=["Primary","ImageWithFallback"];export{p as ImageWithFallback,m as Primary,c as __namedExportsOrder,i as default};
+//# sourceMappingURL=Avatar.stories-332170c8.js.map
